@@ -1,0 +1,49 @@
+.cover{
+   background-image:url("./shared/assignment2.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   min-height:100vh;
+   min-width:100vw;
+   padding: 2vh 2vw;
+}
+
+@media (min-width: 600px) {
+    .cover{
+        background-image:url("./shared/assignment.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height:100vh;
+        min-width:100vw;
+        padding: 2vh 2vw;
+     }
+     
+    
+}
+
+.Options{
+  
+   padding:2vh 3vw;
+   background-color: rgb(225, 0, 255);
+   color : white;
+   min-width:32vw;
+   margin-top:1vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.Option_selected{
+  
+   padding:2vh 3vw;
+   background-color: rgb(61, 5, 68);
+   color : white;
+   min-width:32vw;
+   margin-top:1vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
